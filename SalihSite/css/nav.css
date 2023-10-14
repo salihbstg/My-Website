@@ -1,0 +1,16 @@
+.navbar{
+    font-size: 1rem;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    background-color: #CE0B0B;
+}
+.nav-item{
+    margin-right: 18px;
+}
+.nav-item a{
+    color: white;
+    transition: 0.5s;
+}
+.navbar img{
+    width: 60px;
+}

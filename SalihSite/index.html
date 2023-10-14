@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/services.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="icon" href="images/scbLogo.png" />
+    <link rel="stylesheet" href="css/git.css" />
+
+    <title>Salihcan Baştuğ | Junior Front-End Developer</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- marque start -->
+        <div id="goHome" style="height: auto" class="row">
+            <marquee scrollamount="13" direction=""
+                class="border-bottom d-flex border-black fw-bolder bg-secondary text-light">
+                <span style="font-size: 1.2rem; font-family: 'Ubuntu', sans-serif">Web tasarımındaki tutkumuz, sizi
+                    etkileyici deneyimlere davet
+                    ediyor. Hoş geldiniz!<i class="fa-regular fa-face-grin-wide ms-3"></i></span>
+            </marquee>
+        </div>
+        <!-- marque end -->
+
+        <!-- navigation bar start -->
+        <div style="height: auto" class="row sticky-top">
+            <nav class="navbar navbar-expand-lg px-4">
+                <div class="container-fluid">
+                    <img src="images/logo.gif" alt="" />
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end pe-4" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#goHome"><i class="fa-solid fa-house me-2"></i>ANASAYFA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#goAbout"><i
+                                        class="fa-solid me-2 fa-circle-info"></i>HAKKIMDA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#goServices"><i
+                                        class="fa-solid fa-code me-2"></i>HİZMETLER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#goSkills"><i
+                                        class="fa-solid fa-phone me-2"></i>YETENEKLER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#git"><i class="fa-brands fa-github"></i>
+                                    GİTHUB</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- navigation bar end -->
+
+        <!-- home start -->
+        <div id="home" class="row1 row d-flex justify-content-center align-items-center">
+            <div class="wow animate__animated animate__backInLeft col-lg-6 text-center text-light">
+                <h2>Salihcan BAŞTUĞ</h2>
+                <p>Front-End Developer</p>
+            </div>
+            <div class="wow animate__animated animate__backInRight col-lg-6 d-flex">
+                <img width="100%" src="images/homePcPng.png" alt="" />
+            </div>
+            <div id="goAbout"></div>
+        </div>
+        <!-- home end -->
+
+        <!-- about start -->
+        <h1 class="mt-5 text-center text-danger text-decoration-underline fw-bolder">
+            HAKKIMDA
+        </h1>
+        <div id="about" class="row d-flex justify-content-between align-items-center mb-5">
+            <div class="col-lg-4 p-0">
+                <img id="left-animation" class="wow animate__animated animate__fadeInLeft" width="100%"
+                    src="images/hakkimdaF1.jpg" alt="" />
+            </div>
+            <div class="col-lg-4 p-0">
+                <img loading="lazy" width="100%" src="images/hakkimdaF2.jpg" alt="" />
+            </div>
+            <div class="col-lg-4 p-0">
+                <img id="right-animation" class="wow animate__animated animate__fadeInRight" width="100%"
+                    src="images/hakkimdaF3.jpg" alt="" />
+            </div>
+        </div>
+        <div id="aboutText" class="row p-5">
+            <div class="col-12">
+                <h1 style="letter-spacing: 10px" class="text-center">MARKANIZI</h1>
+                <h1 style="letter-spacing: 10px" class="text-center">ZİRVEYE</h1>
+                <h1 style="letter-spacing: 10px" class="text-center mb-3">
+                    TAŞIYALIM!
+                </h1>
+                <hr />
+                <p class="fs-5" id="hakkimdaParagraf">
+                    Merhaba! Ben Salih.
+                    <br />
+                    Bilgisayar Mühendisliği lisans mezunuyum.Web tasarımına olan
+                    tutkum,her projeyi bir sanat eserine dönüştürme arzumla
+                    birleşiyor.Her markanın benzersiz hikayesini dijital dünyada
+                    anlatmak için tasarım becerilerimi kullanıyorum.Web sitenizi daha
+                    kullanıcı dostu,mobil uyumlu ve estetik açıdan çekici hale getirerek
+                    işinizi çevrimiçi dünyada büyütmeye yardımcı olmak tek
+                    hedefim.Sizinle çalışmak ve dijital başarınıza katkıda bulunmak için
+                    sabırsızlanıyorum!
+                </p>
+            </div>
+            <div id="hizmetlerGo"></div>
+        </div>
+        <!-- about end -->
+
+        <!-- services start -->
+        <div id="goServices"></div>
+        <div id="services" class="row bg-black p-5 my-5">
+            <h1 class="text-light text-center">HİZMETLER</h1>
+            <div class="col-lg-4 p-1">
+                <img src="images/websitesi.gif" alt="yukelenemedi" />
+            </div>
+            <div class="col-lg-4 p-1">
+                <img src="images/seo.gif" alt="yukelenemedi" />
+            </div>
+            <div class="col-lg-4 p-1">
+                <img src="images/otomasyon.gif" alt="yukelenemedi" />
+            </div>
+        </div>
+        <!-- services end -->
+
+        <!-- skills start -->
+        <div id="goSkills"></div>
+        <div class="d-flex justify-content-center mt-3 pt-3">
+            <img width="80%" src="images/yetenek.png" alt="" />
+        </div>
+        <!-- skills end -->
+
+        <!-- git start -->
+        <div id="git" class="row d-flex justify-content-center flex-column align-items-center p-4">
+            <div id="avatar" class="col-12 d-flex flex-column justify-content-center align-items-center">
+                <div class="d-flex justify-content-center">
+                    <img style="border-radius: 20px; margin-bottom: 20px;" id="gitAvatar" width="50%" height="auto"
+                        src="images/homePcPng.png" alt="" />
+                </div>
+                <div id="repoCount">
+                    <button id="gitRepoBtn" class="btn btn-primary">Repo:22</button>
+                </div>
+            </div>
+            <div id="repoDiv" class="repo col-12  pt-3 text-left row">
+                <!-- <div><a href="#">Kargo takip otomasyonu</a></div> -->
+            </div>
+        </div>
+        <!-- git end -->
+
+        <!-- footer start -->
+        <div id="footer" class="bg-black row animate__animated animate__fadeInDownBig wow">
+            <div class="ft">
+                <a class="text-light text-decoration-none" target="_blank"
+                    href="https://www.linkedin.com/in/salih-bastug-08514722b/"><i
+                        class="fa-brands fa-linkedin me-2"></i>LinkedIn</a>
+
+                <a class="text-light text-decoration-none" target="_blank" href="https://github.com/salihbstg"><i
+                        class="fa-brands fa-github me-2"></i>GitHub</a>
+                <a class="text-light text-decoration-none" href="mailto:salihbstg01@gmail.com"><i
+                        class="fa-regular fa-envelope me-2"></i>salihbstg01@gmail.com</a>
+                <a class="text-light text-decoration-none" href="tel:+905446808618"><i
+                        class="fa-solid fa-phone-flip me-2"></i>0544 680 8618</a>
+            </div>
+        </div>
+        <!-- footer end -->
+    </div>
+
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script/app.js"></script>
+</body>
+
+</html>

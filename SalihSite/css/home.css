@@ -1,0 +1,11 @@
+#home{
+    background-image: url("/images/homeBg.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+#home h2,#home p{
+    font-size: 2.6rem;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 10px;
+}

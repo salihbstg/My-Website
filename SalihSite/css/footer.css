@@ -1,0 +1,20 @@
+#footer a{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+#footer a:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.ft{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+    align-items: center;
+}
+@media only screen and (max-width:992px) {
+    .ft{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
