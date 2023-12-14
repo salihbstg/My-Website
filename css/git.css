@@ -1,0 +1,34 @@
+#git{
+    background:linear-gradient(95deg,#000,#111,#222);
+    background-size: 180%;
+    animation: anim 4s ease infinite;
+}
+@keyframes anim{
+    0%{
+       background-position: 0 50%;
+    }
+    25%{
+        background-position: 50% 100%;
+    }
+    50%{
+       background-position: 100% 50%;
+    }
+    75%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+#git #repoCount button{
+padding:10px 30px;
+font-weight: bolder;
+}
+#git a{
+    padding: 10px 50px;
+    font-size: 16px;
+    text-decoration: none;
+}
+#git #repoDiv a{
+ float: left;
+}

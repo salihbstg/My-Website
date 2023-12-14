@@ -30,12 +30,12 @@
     <style>
         * {
             box-sizing: border-box;
-            padding: 0px;
-            margin: 0px;
+            padding: 0rem;
+            margin: 0rem;
         }
 
         body {
-            font-size: 10px;
+            font-size: .625rem;
         }
     </style>
 </head>
@@ -43,12 +43,12 @@
 <body>
     <div class="container-fluid">
         <!-- marque start -->
-        <div id="goHome" style="height: auto" class="row">
+        <div id="goHome" style="height: auto" class="row z-1">
             <marquee scrollamount="13" direction=""
-                class="border-bottom d-flex border-black fw-bolder bg-secondary text-light">
-                <span style="font-size: 1.2rem; font-family: 'Ubuntu', sans-serif">Web tasarımındaki tutkumuz, sizi
+                class="border-bottom d-flex border-black fw-bolder bg-secondary text-light z-1">
+                <span style="font-size: 19.2px; font-family: 'Ubuntu', sans-serif">Web tasarımındaki tutkumuz, sizi
                     etkileyici deneyimlere davet
-                    ediyor. Hoş geldiniz!<i class="fa-regular fa-face-grin-wide ms-3"></i></span>
+                    ediyor. Hoş geldiniz!<i class="fa-regular fa-face-grin-wide ms-3 z-1"></i></span>
             </marquee>
         </div>
         <!-- marque end -->
@@ -56,12 +56,15 @@
         <!-- navigation bar start -->
         <div style="height: auto" class="row sticky-top">
             <nav class="navbar navbar-expand-lg px-4">
-                <div class="container-fluid">
+                <div class="container-fluid d-flex position-relative">
                     <img src="images/logo.gif" alt="" />
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    <div id="nav-div" class="position-absolute">
+
+                    </div>
                     <div class="collapse navbar-collapse justify-content-end pe-4" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
@@ -72,16 +75,16 @@
                                         class="fa-solid me-2 fa-circle-info"></i>HAKKIMDA</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#goServices"><i
-                                        class="fa-solid fa-code me-2"></i>HİZMETLER</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="#goSkills"><i
                                         class="fa-solid fa-phone me-2"></i>YETENEKLER</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#git"><i class="fa-brands fa-github"></i>
                                     GİTHUB</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="./piano.html"><i class="fa-solid fa-music"></i>
+                                    Piano</a>
                             </li>
                         </ul>
                     </div>
@@ -93,7 +96,7 @@
         <!-- home start -->
         <div id="home" class="row1 row d-flex justify-content-center align-items-center">
             <div class="wow animate__animated animate__backInLeft col-lg-6 text-center text-light">
-                <h2>Salihcan BAŞTUĞ</h2>
+                <h2><span class="s-span" style="font-size: 80px;">S</span>alihcan BAŞTUĞ</h2>
                 <p>Front-End Developer</p>
             </div>
             <div class="wow animate__animated animate__backInRight col-lg-6 d-flex">
@@ -122,9 +125,9 @@
         </div>
         <div id="aboutText" class="row p-5">
             <div class="col-12">
-                <h1 style="letter-spacing: 10px" class="text-center">MARKANIZI</h1>
-                <h1 style="letter-spacing: 10px" class="text-center">ZİRVEYE</h1>
-                <h1 style="letter-spacing: 10px" class="text-center mb-3">
+                <h1 style="letter-spacing: .625rem" class="text-center">MARKANIZI</h1>
+                <h1 style="letter-spacing: .625rem" class="text-center">ZİRVEYE</h1>
+                <h1 style="letter-spacing: .625rem" class="text-center mb-3">
                     TAŞIYALIM!
                 </h1>
                 <hr />
@@ -145,20 +148,7 @@
         </div>
         <!-- about end -->
 
-        <!-- services start -->
-        <div id="goServices"></div>
-        <div id="services" class="row bg-black p-5 my-5">
-            <h1 class="text-light text-center">HİZMETLER</h1>
-            <div class="col-lg-4 p-1">
-                <img src="images/websitesi.gif" alt="yukelenemedi" />
-            </div>
-            <div class="col-lg-4 p-1">
-                <img src="images/seo.gif" alt="yukelenemedi" />
-            </div>
-            <div class="col-lg-4 p-1">
-                <img src="images/otomasyon.gif" alt="yukelenemedi" />
-            </div>
-        </div>
+
         <!-- services end -->
 
         <!-- skills start -->
@@ -172,8 +162,8 @@
         <div id="git" class="row d-flex justify-content-center flex-column align-items-center p-4">
             <div id="avatar" class="col-12 d-flex flex-column justify-content-center align-items-center">
                 <div class="d-flex justify-content-center">
-                    <img style="border-radius: 20px; margin-bottom: 20px;" id="gitAvatar" width="50%" height="auto"
-                        src="images/homePcPng.png" alt="" />
+                    <img style="border-radius: 1.25rem; margin-bottom: 1.25rem;" id="gitAvatar" width="50%"
+                        height="auto" src="images/homePcPng.png" alt="" />
                 </div>
                 <div id="repoCount">
                     <button id="gitRepoBtn" class="btn btn-primary">Repo:22</button>

@@ -1,0 +1,32 @@
+.navbar{
+    font-size: 1rem;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    background-color: #CE0B0B;
+}
+.nav-item{
+    margin-right: 18px;
+}
+.nav-item a{
+    color: white;
+    transition: 0.5s;
+}
+.navbar img{
+    width: 60px;
+}
+#nav-div{
+    background: #CE0B0B;
+    background-size: 100%;
+    left: 47%;
+    border-radius: 50%;
+    bottom: -80%;
+    z-index: -3;
+    height: 110px;
+    width:110px;
+    transform: rotate(45deg);
+}
+@media only screen and (max-width:1000px) {
+    #nav-div{
+        display: none;
+    }
+}
